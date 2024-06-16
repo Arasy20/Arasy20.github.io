@@ -1,1 +1,21 @@
 /*ini css*/
+.Simbol-S{
+    font-size: larger;
+    font-style: italic;
+}
+textarea{
+    resize: none;
+    padding: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:floralwhite;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+}
+body{
+    background-color: darkkhaki;
+}
