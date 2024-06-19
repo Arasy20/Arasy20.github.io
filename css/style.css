@@ -9,7 +9,7 @@ textarea{
     padding: 10px;
     resize: none;
 }
-.container{
+#container{
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -23,8 +23,11 @@ body{
 }
 input{
     margin-bottom: 10px;
+    
 }
 button{
     margin-bottom: 10px;
     border-radius: 3px;
+    background-color: darkgoldenrod;
+    height: 25px;
 }

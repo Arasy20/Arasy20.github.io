@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Mini project</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js"></script>
+        
     </head>
 
     <body>
@@ -13,12 +13,12 @@
             <h1>Konversi suhu</h1>
         </header>
 
-        <main class="container">
+        <main id="container">
             <p>Masukan suhu celcius (&deg;C)</p>
             <section>
                 <header>Celcius(&deg;C)</header>
                 <section>
-                    <input id="celcius"></input>
+                    <input type="number" id="celcius" placeholder="&deg;C"></input>
                 </section>
                 <button onclick = "tombolKonversi()">Konversi</button>
                 <button onclick="tombolReset()">Reset</button>
@@ -27,7 +27,7 @@
             <section>
                 <header>Farenheit(&deg;F)</header>
                 <section>
-                    <input id="farenheit"></input>
+                    <input type="number" id="farenheit" placeholder="&deg;F"></input>
                 </section>
             </section>
             <section>
@@ -35,7 +35,7 @@
                 <section>
                     <textarea id="kalkulasi"></textarea>
                 </section>
-                <a href="">Farenheit ke Celcius</a>
+                <a href="javascript:tombolReverse()">Farenheit ke Celcius</a>
             </section>
             <section>
                 <header>
@@ -52,6 +52,7 @@
         
         </main>
 
+        <script src="js/script.js"></script>
         
     </body>
 </html>

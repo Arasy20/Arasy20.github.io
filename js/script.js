@@ -8,7 +8,7 @@ function tombolKonversi() {
   
     farenheitInput.value = farenheitValue;
   
-    let kalkulasiText = `(${celciusValue}\u00B0C x 1.8) + 32`;
+    let kalkulasiText = `(${celciusValue}\u00B0C + 32) x 9/5`;
     kalkulasiTextarea.value = kalkulasiText;
   }
 
