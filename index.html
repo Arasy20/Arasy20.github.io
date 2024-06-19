@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Mini project</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
     </head>
 
     <body>
@@ -17,22 +18,22 @@
             <section>
                 <header>Celcius(&deg;C)</header>
                 <section>
-                    <textarea></textarea>
+                    <input id="celcius"></input>
                 </section>
-                <button>Konversi</button>
-                <button>Reset</button>
-                <button>Reverse</button>
+                <button onclick = "tombolKonversi()">Konversi</button>
+                <button onclick="tombolReset()">Reset</button>
+                <button onclick="tombolReverse()">Reverse</button>
             </section>
             <section>
                 <header>Farenheit(&deg;F)</header>
                 <section>
-                    <textarea></textarea>
+                    <input id="farenheit"></input>
                 </section>
             </section>
             <section>
                 <header>Cara Kalkulasi</header>
                 <section>
-                    <textarea></textarea>
+                    <textarea id="kalkulasi"></textarea>
                 </section>
                 <a href="">Farenheit ke Celcius</a>
             </section>
@@ -51,6 +52,6 @@
         
         </main>
 
-        <script src="js/script.js"></script>
+        
     </body>
 </html>

@@ -4,8 +4,10 @@
     font-style: italic;
 }
 textarea{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
     resize: none;
-    padding: 20px;
 }
 .container{
     width: 100%;
@@ -18,4 +20,11 @@ textarea{
 }
 body{
     background-color: darkkhaki;
+}
+input{
+    margin-bottom: 10px;
+}
+button{
+    margin-bottom: 10px;
+    border-radius: 3px;
 }
